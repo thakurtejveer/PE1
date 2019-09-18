@@ -46,7 +46,12 @@ public class Main {
             }
             else
             {
+//                int temp=(int)Number.charAt(i)-'0';
+//                System.out.println(temp);
                 var=(var*10)+(int)Number.charAt(i)-'0';
+
+//                System.out.println(var);
+
             }
         }
         sum=sum+var;
